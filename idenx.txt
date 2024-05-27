@@ -1,0 +1,24 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+price                       - UNSIGNED MEDIUMINT
+photo_path                  - TEXT
+brand                       - VARCHAR(255)
+year                        - YEAR
+model                       - VARCHAR(255)
+trim                        - VARCHAR(255)
+fuel_type                   - VARCHAR(255)
+horse_power                 - UNSIGNED SMALLINT
+transmission                - VARCHAR(255)
+mileage                     - MEDIUMINT
+fuel_efficiency_lt/100km    - FLOAT(3,1)
+emissions                   - UNSIGNED TINYINT
+description                 - TEXT
+weigth                      - UNSIGNED SMALLINT
+width                       - FLOAT(3,2)
+length                      - FLOAT(3,2)
+heigth                      - FLOAT(3,2)
+car_type                    - VARCHAR(255)
+seats_number                - UNSIGNED TINYINT
+doors                       - UNSIGNED TINYINT
+engine_cc                   - UNSIGNED SMALLINT
+traction                    - VARCHAR(255)
